@@ -23,7 +23,7 @@ int main()
 		<< setw(10) << "y" << " |" << endl;
 	cout << "----------------------" << endl;
 
-	for (x = xS; x < xE; x++)
+	for (x = xS; x <= xE;)
 	{
 		if (x <= -1 - R)
 			y = -1;
